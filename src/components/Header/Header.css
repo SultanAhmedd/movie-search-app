@@ -1,0 +1,72 @@
+.app-header {
+  background: #1F3B33;
+  color: #F3EFE6;
+  border-bottom: 3px solid #2B6A5C;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #F3EFE6;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  color: #CFC5AF;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.search-form input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #3E5C52;
+  background: #2A4A40;
+  color: #fff;
+  font-size: 0.85rem;
+  min-width: 200px;
+}
+
+.search-form input::placeholder {
+  color: #A6B8B0;
+}
+
+.search-form button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #D97757;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.search-form button:hover {
+  background: #C4643F;
+}
